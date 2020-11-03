@@ -1,8 +1,7 @@
-import java.util.ArrayList;
 
-public interface Element {
+public interface Element{
 
+    default void print(){
 
-    void print();
+    }
 }
-

@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class AlignLeft {
+public class AlignLeft implements AlignStrategy{
+    public void render(Paragraph paragraph){
+        System.out.println("+++++" + paragraph.getName());
+    }
 }

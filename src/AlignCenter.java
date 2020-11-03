@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class AlignCenter {
+public class AlignCenter implements AlignStrategy {
+    public void render(Paragraph paragraph) {
+        System.out.println("+++++" + paragraph.getName() + "+++++");
+    }
 }

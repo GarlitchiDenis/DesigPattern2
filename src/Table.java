@@ -1,11 +1,14 @@
+
+
 public class Table implements Element {
-    public String name;
-    Table(String n)
-    {
-        name=n;
+    private String name;
+
+    Table (String name){
+        this.name=name;
     }
     public void print()
     {
-        System.out.println(name);
+        System.out.println("Table: " + this.name);
+
     }
 }

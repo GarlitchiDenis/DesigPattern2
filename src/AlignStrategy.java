@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class AlignStrategy {
+
+public interface AlignStrategy {
+    public void render(Paragraph paragraph);
 }
+
+
